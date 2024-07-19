@@ -18,34 +18,48 @@ llm = OCIGenAI(
     model_kwargs = {"max_tokens": 200}
 )
 
-response = llm.invoke("Tell me one fact about space", temperature=0.7)
-print("Case 1 Response:", response)
+# response = llm.invoke("Tell me one fact about space", temperature=0.7)
+# print("Case 1 Response:", response)
 
-#############
-# Step 3 - use string prompt to accept text input. Here we create a template and declare a input variable {human_input}
+# #############
+# # Step 3 - use string prompt to accept text input. Here we create a template and declare a input variable {human_input}
 
-# String prompt
+# # String prompt
 
-template = """You are a chatbot having a conversation with a human.
-Human: {human_input} + {city}
-"""
+# template = """You are a chatbot having a conversation with a human.
+# Human: {human_input} + {city}
+# """
 
-# step 4 - Here we create a Prompt using the template
+# # step 4 - Here we create a Prompt using the template
 
-prompt2 = PromptTemplate(input_variables=["human_input", "city"], template=template)
+# prompt2 = PromptTemplate(input_variables=["human_input", "city"], template=template)
 
-prompt_val = prompt2.invoke({"human_input":"Tell us in a exciting tone about", "city": "Las Vegas"})
-print ("Prompt String is -> ")
-print (prompt_val.to_string())
+# prompt_val = prompt2.invoke({"human_input":"Tell us in a exciting tone about", "city": "Las Vegas"})
+# print ("Prompt String is -> ")
+# print (prompt_val.to_string())
 
-#Step 5 - here we declare a chain that beigns with a prompt, next llm and finally output parser
+# #Step 5 - here we declare a chain that beigns with a prompt, next llm and finally output parser
 
-chain = prompt2 | llm
+# chain = prompt2 | llm
 
-# Step 6 - Next we invoke a chain and provide input question
+# # Step 6 - Next we invoke a chain and provide input question
 
-response = chain.invoke({"human_input":"Tell us in a exciting tone about", "city": "Las Vegas"})
+# response = chain.invoke({"human_input":"Tell us in a exciting tone about", "city": "Las Vegas"})
 
-#Step 7 - print the prompt and response from the llm
+# #Step 7 - print the prompt and response from the llm
 
-print("Case2 Response - > ", response)
+# print("Case2 Response - > ", response)
+
+# Step 8 - Use Chat Message Prompt to accept texrt input. Here we create a chat template and use HumanMessage and SystemMessage 
+
+prompt3 = ChatPromptTemplate.from_messages(
+    [
+        ("system", "You are a chatbot that explains in steps."),
+        ("ai", "I shall explain in steps"),
+        ("human", "{input}")
+    ]
+)
+
+chain = prompt3 | llm
+response3 = chain.invoke({"input":"What's the New York culture like?"})
+print("Case3 Response - > ", response3)
