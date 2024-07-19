@@ -1,0 +1,10 @@
+oci
+oracle-ads
+wise
+pydantic
+chromadb
+pypdf
+streamlit
+langchain-community
+langchain
+langsmith
