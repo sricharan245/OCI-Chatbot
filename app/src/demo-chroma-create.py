@@ -6,7 +6,7 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 
 from langchain_community.embeddings import CohereEmbeddings
 
-pdf_loader = PyPDFDirectoryLoader("app/assets/pdf-docs")
+pdf_loader = PyPDFDirectoryLoader("app/assets/pdf-docs") # I used OCI IT enterprise document downloaded from Oracle website as I did not find pdf docs shown in the course.
 
 loaders = [pdf_loader]
 # print(loaders)
