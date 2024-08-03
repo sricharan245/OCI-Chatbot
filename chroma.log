@@ -1,0 +1,103 @@
+[33mWARNING[0m:  [24-07-2024 18:11:30] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[33mWARNING[0m:  [24-07-2024 18:11:54] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [24-07-2024 18:11:54] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [24-07-2024 18:11:54] Starting component System
+[36mDEBUG[0m:    [24-07-2024 18:11:54] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [24-07-2024 18:11:54] Starting component SqliteDB
+[36mDEBUG[0m:    [24-07-2024 18:11:54] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [24-07-2024 18:11:54] Starting component Posthog
+[36mDEBUG[0m:    [24-07-2024 18:11:54] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [24-07-2024 18:11:54] Starting component SegmentAPI
+[32mINFO[0m:     [24-07-2024 18:11:54] Started server process [[36m90514[0m]
+[32mINFO[0m:     [24-07-2024 18:11:54] Waiting for application startup.
+[32mINFO[0m:     [24-07-2024 18:11:54] Application startup complete.
+[32mINFO[0m:     [24-07-2024 18:11:54] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [24-07-2024 18:12:01] ::1:64164 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [24-07-2024 18:12:01] ::1:64164 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [25-07-2024 15:10:07] Shutting down
+[32mINFO[0m:     [25-07-2024 15:10:07] Waiting for application shutdown.
+[36mDEBUG[0m:    [25-07-2024 15:10:07] Stopping component System
+[36mDEBUG[0m:    [25-07-2024 15:10:07] Stopping component SegmentAPI
+[36mDEBUG[0m:    [25-07-2024 15:10:07] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [25-07-2024 15:10:07] Stopping component Posthog
+[36mDEBUG[0m:    [25-07-2024 15:10:07] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [25-07-2024 15:10:07] Stopping component SqliteDB
+[36mDEBUG[0m:    [25-07-2024 15:10:07] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [25-07-2024 15:10:07] Application shutdown complete.
+[32mINFO[0m:     [25-07-2024 15:10:07] Finished server process [[36m90514[0m]
+[33mWARNING[0m:  [28-07-2024 18:18:11] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[33mWARNING[0m:  [28-07-2024 18:18:19] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [28-07-2024 18:18:19] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [28-07-2024 18:18:19] Starting component System
+[36mDEBUG[0m:    [28-07-2024 18:18:19] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [28-07-2024 18:18:19] Starting component SqliteDB
+[36mDEBUG[0m:    [28-07-2024 18:18:19] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [28-07-2024 18:18:19] Starting component Posthog
+[36mDEBUG[0m:    [28-07-2024 18:18:19] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [28-07-2024 18:18:19] Starting component SegmentAPI
+[32mINFO[0m:     [28-07-2024 18:18:19] Started server process [[36m27199[0m]
+[32mINFO[0m:     [28-07-2024 18:18:19] Waiting for application startup.
+[32mINFO[0m:     [28-07-2024 18:18:19] Application startup complete.
+[32mINFO[0m:     [28-07-2024 18:18:19] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [28-07-2024 18:19:11] Shutting down
+[32mINFO[0m:     [28-07-2024 18:19:11] Waiting for application shutdown.
+[36mDEBUG[0m:    [28-07-2024 18:19:11] Stopping component System
+[36mDEBUG[0m:    [28-07-2024 18:19:11] Stopping component SegmentAPI
+[36mDEBUG[0m:    [28-07-2024 18:19:11] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [28-07-2024 18:19:11] Stopping component Posthog
+[36mDEBUG[0m:    [28-07-2024 18:19:11] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [28-07-2024 18:19:11] Stopping component SqliteDB
+[36mDEBUG[0m:    [28-07-2024 18:19:11] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [28-07-2024 18:19:11] Application shutdown complete.
+[32mINFO[0m:     [28-07-2024 18:19:11] Finished server process [[36m27199[0m]
+[33mWARNING[0m:  [28-07-2024 18:19:14] chroma_server_nofile is set to 65535, but this is less than current soft limit of 1048575. chroma_server_nofile will not be set.
+[32mINFO[0m:     [28-07-2024 18:19:14] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [28-07-2024 18:19:14] Starting component System
+[36mDEBUG[0m:    [28-07-2024 18:19:14] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [28-07-2024 18:19:14] Starting component SqliteDB
+[36mDEBUG[0m:    [28-07-2024 18:19:14] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [28-07-2024 18:19:14] Starting component Posthog
+[36mDEBUG[0m:    [28-07-2024 18:19:14] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [28-07-2024 18:19:14] Starting component SegmentAPI
+[32mINFO[0m:     [28-07-2024 18:19:14] Started server process [[36m27263[0m]
+[32mINFO[0m:     [28-07-2024 18:19:14] Waiting for application startup.
+[32mINFO[0m:     [28-07-2024 18:19:14] Application startup complete.
+[32mINFO[0m:     [28-07-2024 18:19:14] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [28-07-2024 18:19:33] 127.0.0.1:51351 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 18:19:33] 127.0.0.1:51351 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 18:19:33] 127.0.0.1:51352 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [28-07-2024 18:19:33] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [28-07-2024 18:19:33] 127.0.0.1:51352 - "POST /api/v1/collections/8289e3c7-4266-4311-b8a1-d68a81f9d04f/query HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 18:19:33] 127.0.0.1:51352 - "POST /api/v1/collections/8289e3c7-4266-4311-b8a1-d68a81f9d04f/query HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 18:58:47] 127.0.0.1:52163 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 18:58:47] 127.0.0.1:52163 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [28-07-2024 18:58:47] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-07-2024 18:58:47] 127.0.0.1:52164 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 18:58:48] 127.0.0.1:52164 - "POST /api/v1/collections/8289e3c7-4266-4311-b8a1-d68a81f9d04f/query HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 18:58:48] 127.0.0.1:52164 - "POST /api/v1/collections/8289e3c7-4266-4311-b8a1-d68a81f9d04f/query HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:02:00] 127.0.0.1:52397 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:02:00] 127.0.0.1:52397 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [28-07-2024 19:02:00] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-07-2024 19:02:00] 127.0.0.1:52398 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:02:00] 127.0.0.1:52398 - "POST /api/v1/collections/8289e3c7-4266-4311-b8a1-d68a81f9d04f/query HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:02:00] 127.0.0.1:52398 - "POST /api/v1/collections/8289e3c7-4266-4311-b8a1-d68a81f9d04f/query HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:03:44] 127.0.0.1:52413 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:03:44] 127.0.0.1:52413 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [28-07-2024 19:03:44] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-07-2024 19:03:44] 127.0.0.1:52414 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:03:45] 127.0.0.1:52414 - "POST /api/v1/collections/8289e3c7-4266-4311-b8a1-d68a81f9d04f/query HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:03:45] 127.0.0.1:52414 - "POST /api/v1/collections/8289e3c7-4266-4311-b8a1-d68a81f9d04f/query HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:07:24] 127.0.0.1:52442 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:07:24] 127.0.0.1:52442 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[36mDEBUG[0m:    [28-07-2024 19:07:24] Collection langchain already exists, returning existing collection.
+[32mINFO[0m:     [28-07-2024 19:07:24] 127.0.0.1:52443 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:09:26] 127.0.0.1:52473 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:09:26] 127.0.0.1:52473 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:10:19] 127.0.0.1:52484 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:10:19] 127.0.0.1:52484 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:15:30] 127.0.0.1:52584 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:15:30] 127.0.0.1:52584 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:16:41] 127.0.0.1:52595 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 19:16:41] 127.0.0.1:52595 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 20:31:02] 127.0.0.1:53033 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [28-07-2024 20:31:02] 127.0.0.1:53033 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
